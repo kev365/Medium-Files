@@ -1,11 +1,12 @@
 #!/usr/bin/env python3
 """
-Script Name: cloudtrail_to_plaso.py
+Script Name: aws-cloudtrail2plaso.py
 Author: Kevin Stokes
 Date Created: 2024-08-12
 Last Modified: 2024-08-12
 Description: Processes CloudTrail JSON files and converts them to Plaso-compatible JSONL format associated with lookup-events.
-https://awscli.amazonaws.com/v2/documentation/api/latest/reference/cloudtrail/lookup-events.html
+Lookup-Events Ref: https://awscli.amazonaws.com/v2/documentation/api/latest/reference/cloudtrail/lookup-events.html
+Sample Data to parse: https://github.com/invictus-ir/aws_dataset
 """
 
 import os
